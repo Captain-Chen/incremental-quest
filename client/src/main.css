@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.flexWrapper {
+    box-sizing: content-box;
+    max-inline-size: 60ch;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    min-block-size: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 8rem 1fr;
+    gap: 8px;
+}
+
+.stocks {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.commands {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.btn {
+    cursor: pointer;
+}

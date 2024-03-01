@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"jsx": "react-jsx",
+		"esModuleInterop": true,
+		"strict": true,
+		"sourceMap": true,
+		"outDir": "../dist/"
+	},
+	"files": [
+		"../typings.ts",
+		"reducer.tsx",
+		"server.tsx"
+	]
+}
